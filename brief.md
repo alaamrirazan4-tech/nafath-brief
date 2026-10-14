@@ -30,5 +30,7 @@ Anonymization completely strips out all identifying pieces from chat logs so tha
 Resource: GDPR Article 4 - Definitions - https://gdpr-info.eu/art-4-gdpr/
 
 ## Misconception in My Track
+A widespread misconception about RAG is that pulling verified documents entirely eliminates wrong answers or hallucinations. In reality, while RAG provides a strong factual anchor, the LLM can still misinterpret what it reads or summarize it awkwardly during generation. Section 4.2 of the seminal RAG paper highlights that although these models are much more accurate than pure parametric models, they are still generative systems that can slip up with subtle errors if generation decoding isn't strictly constrained.
 
 ## Open Question
+I would verify whether our backend can maintain sub-second response times when scaling the vector store to handle millions of archived government policy documents.
