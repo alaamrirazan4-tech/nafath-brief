@@ -6,7 +6,7 @@ Your track: AI
 Bringing a public-service AI chat assistant into a government mobile app means carefully unifying six IT disciplines to ensure security, reliability, and regulatory compliance. Software Engineering structures release cycles, while Mobile Engineering and Networking secure data in transit across modern networks. Cybersecurity guards the model against adversarial prompt injections, and Data Engineering enforces strict privacy controls over stored interaction logs. Artificial Intelligence relies on Retrieval-Augmented Generation (RAG) to ground answers in official policy documents, making vector store latency a primary performance question.
 
 ## Software
-nder Semantic Versioning 2.0.0, the public API has to increment its MAJOR version whenever we introduce breaking changes that alter request structures or drop existing endpoints, which forces clients to update. The MINOR version goes up when we add backwards-compatible features or new optional parameters. We only bump the PATCH version for backwards-compatible bug fixes or minor code adjustments that leave the public API contract completely intact.
+Under Semantic Versioning 2.0.0, the public API has to increment its MAJOR version whenever we introduce breaking changes that alter request structures or drop existing endpoints, which forces clients to update. The MINOR version goes up when we add backwards-compatible features or new optional parameters. We only bump the PATCH version for backwards-compatible bug fixes or minor code adjustments that leave the public API contract completely intact.
 Resource: Semantic Versioning 2.0.0 Specification - https://semver.org/spec/v2.0.0.html
 
 ## AI
